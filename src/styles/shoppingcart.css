@@ -1,0 +1,109 @@
+.checkout-form {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.checkout-form-title{
+    font-family: "Montserrat";
+    font-weight: "bold";
+    font-size: 24px;
+}
+
+.checkout-input-container {
+    background-color: #FDAA9D;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.checkout-input-field {
+    font-family: 'Nunito';
+    font-size: 18px;
+    padding: 10px;
+}
+
+.checkout-name, .checkout-address {
+    font-family: 'Nunito';
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+}
+
+.cart-container {
+    display: flex;
+    background-color: #F18181;
+    width: 800px;
+    padding: 20px;
+    margin: 30px auto 30px auto;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.cart-title {
+    font-family: Ubuntu;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.product-cart-container {
+    background-color: #AFE3CE;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product-cart-image {
+    margin: 20px;
+}
+
+.product-cart-information-container {
+    font-family: Nunito;
+    font-size: 18px;
+}
+
+.product-cart-button {
+    margin: 20px;
+    height: 30px;
+    width: 80px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: bold;
+    background: white;
+    border-radius: 5px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.cart-amount {
+    font-size: 24px;
+    text-align: center;
+}
+
+.cart-button-container {
+    display: flex;
+    justify-content: center;
+}
+.cart-pay-button {
+    margin: 20px;
+    height: 30px;
+    width: 80px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: bold;
+    background: white;
+    border-radius: 5px;
+    border-width: 1px;
+    cursor: pointer;
+    align-self: center;
+    text-decoration: none;
+}

@@ -1,0 +1,72 @@
+.form-title {
+    font-family: 'Ubuntu';
+    text-align: center;
+}
+.form-container {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #AFE3CE;
+}
+
+.input-field {
+    font-family: Century gothic;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-box {
+    border-radius: 5px;
+    height: 2rem;
+    font-family: Century gothic;
+    width: 40rem;
+    margin-right: 30px;
+}
+
+.input-field label {
+    margin-bottom: 10px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+  }
+
+  .buttons-container button {
+      background-color: #F8B7B4;
+      border-radius: 5px;
+      height: 40px;
+      width: 100px;
+      font-family: Century gothic;
+      font-size: 18px;
+      margin-right: 20px;
+      border-width: .01em;
+      cursor: pointer;
+  }
+
+  .button-admin {
+      background-color: #00ddcc;
+      height: 60px;
+      width: 140px;
+      font-family: Century gothic;
+      font-size: 18px;
+      border-radius: 5px;
+      margin-top: 30px;
+      margin-left: 50px;
+      margin-bottom: 20px;
+      border-width: .01em;
+      cursor: pointer;
+  }

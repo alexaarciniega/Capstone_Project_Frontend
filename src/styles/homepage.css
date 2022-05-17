@@ -1,0 +1,45 @@
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: #FDAA9D;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Nunito';
+    position: sticky;
+}
+
+.navbar-logo {
+    height: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navbar-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.navbar-link {
+    font-weight: bold;
+    font-size: 20px;
+    align-self: center;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-icon {
+    height: 32px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.promo-image-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
